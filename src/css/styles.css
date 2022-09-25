@@ -8,7 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: #e1e863;
+  background-color: #fbff00e4;
   color: #212121;
   
   line-height: 1.5;
@@ -22,9 +22,9 @@ img {
   font: inherit;
   display: flex;
   justify-content: center;
-  padding: 15px;
-  margin-bottom: 25px;
-  background-color: rgba(17, 152, 220, 0.788);
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(102, 243, 236);
 }
 
 .search-form input,
@@ -37,11 +37,11 @@ img {
 }
 
 .search-form button {
-  background-color: #fffffcfd;
+  background-color: #ffffff;
 }
 
 .search-form button:hover {
-  background-color: #ebef08;
+  background-color: #fbff04;
 }
 
 .gallery {
@@ -61,6 +61,7 @@ img {
 }
 
 .photo-card img:hover {
+  box-shadow: 0 10px 15px #04c2f7e2;
   transform: scale(1.03);
 }
 
@@ -84,13 +85,19 @@ img {
   text-align: center;
 }
 
-.load-more {
-  display: block;
+
+
+.load-more, button {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
 
   outline: none;
   border: none;
-  border-radius: 10px; 
+
+  background-color: #ffffff;
+
+  border-radius: 10px;
+  padding: 10px 20px;
 }
+
